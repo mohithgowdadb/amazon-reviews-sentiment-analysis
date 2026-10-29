@@ -1,6 +1,8 @@
 # Data and models (too big for GitHub)
 data/
-models/
+models/*
+!models/sentiment_mlp.pth
+!models/tfidf_vectorizer.pkl
 
 # Python
 __pycache__/
